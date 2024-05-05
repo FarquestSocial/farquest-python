@@ -15,12 +15,9 @@ The REST API documentation can be found [on docs.farquest.com](https://docs.farq
 ## Installation
 
 ```sh
-# install from the production repo
-pip install git+ssh://git@github.com/FarquestSocial/farquest-python.git
+# install from PyPI
+pip install --pre farquest
 ```
-
-> [!NOTE]
-> Once this package is [published to PyPI](https://app.stainlessapi.com/docs/guides/publish), this will become: `pip install --pre farquest`
 
 ## Usage
 
