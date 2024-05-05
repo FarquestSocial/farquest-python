@@ -39,8 +39,8 @@ classifiers = [
 
 
 [project.urls]
-Homepage = "https://github.com/stainless-sdks/farquest/farquest-python"
-Repository = "https://github.com/stainless-sdks/farquest/farquest-python"
+Homepage = "https://github.com/FarquestSocial/farquest-python"
+Repository = "https://github.com/FarquestSocial/farquest-python"
 
 
 
@@ -108,7 +108,7 @@ path = "README.md"
 [[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
 # replace relative links with absolute links
 pattern = '\[(.+?)\]\(((?!https?://)\S+?)\)'
-replacement = '[\1](https://github.com/FarquestSocial/tree/main/\g<2>)'
+replacement = '[\1](https://github.com/FarquestSocial/farquest-python/tree/main/\g<2>)'
 
 [tool.black]
 line-length = 120
